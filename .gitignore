@@ -1,0 +1,22 @@
+# Visual Studio local state and user-specific remote configuration
+.vs/
+*.user
+*.suo
+
+# Build output and intermediate files
+bin/
+obj/
+*.o
+*.obj
+*.out
+*.exe
+*.pdb
+*.ilk
+*.tlog
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
